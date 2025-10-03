@@ -169,7 +169,7 @@ if not df.empty:
         
         st.altair_chart(chart_wl, use_container_width=True)
         st.info("""
-        *Insight:* Beban kerja antar departemen relatif merata (*2.81 hingga 3.12). **Departemen Marketing* memiliki rata-rata beban kerja tertinggi (*3.12*), mengindikasikan tanggung jawab yang besar. Pemantauan berkala diperlukan untuk menghindari kelelahan.
+        *Insight:* Beban kerja antar departemen relatif merata (2.81 hingga 3.12). **Departemen Marketing** memiliki rata-rata beban kerja tertinggi (3.12), mengindikasikan tanggung jawab yang besar. Pemantauan berkala diperlukan untuk menghindari kelelahan.
         """)
         
     with tab3: # Stress
@@ -179,7 +179,7 @@ if not df.empty:
             use_container_width=True
         )
         st.info("""
-        *Insight:* Terdapat *hubungan negatif yang jelas* antara tingkat stres dan rata-rata kepuasan kerja. Ketika tingkat stres rendah (skor 1), rata-rata kepuasan kerja tertinggi (*3.56), dan menurun secara konsisten hingga **2.56* pada stres skor 5. Hal ini menunjukkan pentingnya manajemen dan dukungan psikologis di tempat kerja.
+        *Insight:* Terdapat *hubungan negatif yang jelas* antara tingkat stres dan rata-rata kepuasan kerja. Ketika tingkat stres rendah (skor 1), rata-rata kepuasan kerja tertinggi (3.56), dan menurun secara konsisten hingga 2.56 pada stres skor 5. Hal ini menunjukkan pentingnya manajemen dan dukungan psikologis di tempat kerja.
         """)
         
     with tab4: # Job Level
@@ -190,7 +190,7 @@ if not df.empty:
                 use_container_width=True
             )
             st.info("""
-            *Insight:* Tingkat kepuasan kerja relatif stabil di seluruh jenjang jabatan (*3.31 hingga 3.41). Level **Mid* memiliki rata-rata tertinggi (*3.41), sementara level **Lead* memiliki rata-rata terendah (*3.31*). Perlu dilakukan evaluasi dukungan kerja untuk posisi Lead.
+            *Insight:* Tingkat kepuasan kerja relatif stabil di seluruh jenjang jabatan (3.31 hingga 3.41). Level **Mid** memiliki rata-rata tertinggi (3.41), sementara level **Lead** memiliki rata-rata terendah (3.31). Perlu dilakukan evaluasi dukungan kerja untuk posisi Lead.
             """)
         else:
             st.warning("Kolom 'Job_Level' tidak ditemukan di dataset Anda. Analisis ini dilewati.")
@@ -211,7 +211,7 @@ if not df.empty:
         
         st.altair_chart(chart_dept, use_container_width=True)
         st.info("""
-        *Insight:* *Sales (3.48)* dan *Operations (3.46)* memiliki rata-rata kepuasan tertinggi. *Departemen IT* memiliki rata-rata terendah (*3.29*). Perbedaan ini menunjukkan adanya variasi budaya kerja atau dukungan tim antar departemen.
+        *Insight:* Sales (3.48) dan Operations (3.46) memiliki rata-rata kepuasan tertinggi. Departemen IT memiliki rata-rata terendah (3.29). Perbedaan ini menunjukkan adanya variasi budaya kerja atau dukungan tim antar departemen.
         """)
             
     with tab6: # Korelasi Matriks
@@ -236,7 +236,7 @@ if not df.empty:
             st.altair_chart(heatmap, use_container_width=True)
             
             st.info("""
-            *Wawasan Utama dari Heatmap:*
+            *Wawasan dari Heatmap:*
             1. *Work-life balance* memiliki korelasi positif sedang (*0.3*) dengan Kepuasan.
             2. *Workload* memiliki korelasi negatif sedang (-0.3**) dengan Kepuasan.
             3. *Stress* memiliki korelasi negatif lemah (-0.2**) dengan Kepuasan.
@@ -248,7 +248,7 @@ if not df.empty:
 
 
 # --- TAMPILAN DATA AWAL & FILTER SAMPING ---
-st.sidebar.header("Pratinjau dan Filter")
+st.sidebar.header("Eksplorasi")
 
 if not df.empty:
     # Filter dan tampilan data di sidebar
