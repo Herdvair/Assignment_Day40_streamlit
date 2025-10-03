@@ -237,10 +237,10 @@ if not df.empty:
             
             st.info("""
             *Insight dari Heatmap:*
-            1. *Work-life balance* memiliki korelasi positif sedang (*0.3*) dengan Kepuasan.
-            2. *Workload* memiliki korelasi negatif sedang (-0.3**) dengan Kepuasan.
-            3. *Stress* memiliki korelasi negatif lemah (-0.2**) dengan Kepuasan.
-            4. *Work environment* dan *Sleep hours* menunjukkan korelasi positif lemah (*0.2*).
+            1. *Work-life balance* memiliki korelasi positif sedang (0.3) dengan Kepuasan.
+            2. *Workload* memiliki korelasi negatif sedang (-0.3) dengan Kepuasan.
+            3. *Stress* memiliki korelasi negatif lemah (-0.2) dengan Kepuasan.
+            4. *Work environment* dan *Sleep hours* menunjukkan korelasi positif lemah (0.2).
             """)
             
         except Exception as e:
