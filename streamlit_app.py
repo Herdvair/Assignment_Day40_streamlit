@@ -104,7 +104,7 @@ if not df.empty:
     st.altair_chart(chart, use_container_width=True)
     
     st.info("""
-    *Insight:* Berdasarkan proporsi skor kepuasan, sebagian besar karyawan (41%) memberikan skor 4, yang menunjukkan bahwa mereka merasa puas dengan pekerjaannya. Skor ini menjadi yang paling dominan dibandingkan kategori lainnya. Tingkat ketidakpuasan (skor 1 dan 2) relatif rendah (23%* gabungan), mengindikasikan suasana kerja yang stabil.
+    *Insight:* Berdasarkan proporsi skor kepuasan, sebagian besar karyawan (41%) memberikan skor 4, yang menunjukkan bahwa mereka merasa puas dengan pekerjaannya. Skor ini menjadi yang paling dominan dibandingkan kategori lainnya. Tingkat ketidakpuasan (skor 1 dan 2) relatif rendah (23% gabungan), mengindikasikan suasana kerja yang stabil.
     """)
     
 
