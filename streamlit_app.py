@@ -104,7 +104,7 @@ if not df.empty:
     st.altair_chart(chart, use_container_width=True)
     
     st.info("""
-    *Insight:* Berdasarkan proporsi skor kepuasan, sebagian besar karyawan (*41%) memberikan skor **4, yang menunjukkan bahwa mereka merasa puas dengan pekerjaannya. Skor ini menjadi yang paling dominan dibandingkan kategori lainnya. Tingkat ketidakpuasan (skor 1 dan 2) relatif rendah (23%* gabungan), mengindikasikan suasana kerja yang stabil.
+    *Insight:* Berdasarkan proporsi skor kepuasan, sebagian besar karyawan (41%) memberikan skor 4, yang menunjukkan bahwa mereka merasa puas dengan pekerjaannya. Skor ini menjadi yang paling dominan dibandingkan kategori lainnya. Tingkat ketidakpuasan (skor 1 dan 2) relatif rendah (23%* gabungan), mengindikasikan suasana kerja yang stabil.
     """)
     
 
@@ -149,7 +149,7 @@ if not df.empty:
             use_container_width=True
         )
         st.info("""
-        *Insight:* Visualisasi menunjukkan adanya *korelasi positif* antara skor Work Life Balance (WLB) dan rata-rata Kepuasan Karyawan. Semakin tinggi skor WLB, semakin tinggi pula tingkat kepuasan. Karyawan dengan skor *WLB 5* memiliki rata-rata kepuasan tertinggi (*3.79), sedangkan skor **WLB 1* memiliki rata-rata terendah (*2.91*).
+        *Insight:* Visualisasi menunjukkan adanya *korelasi positif* antara skor Work Life Balance (WLB) dan rata-rata Kepuasan Karyawan. Semakin tinggi skor WLB, semakin tinggi pula tingkat kepuasan. Karyawan dengan skor *WLB 5* memiliki rata-rata kepuasan tertinggi (3.79), sedangkan skor **WLB 1** memiliki rata-rata terendah (2.91).
         """)
 
     with tab2: # Workload (Beban Kerja)
@@ -236,7 +236,7 @@ if not df.empty:
             st.altair_chart(heatmap, use_container_width=True)
             
             st.info("""
-            *Wawasan dari Heatmap:*
+            *Insight dari Heatmap:*
             1. *Work-life balance* memiliki korelasi positif sedang (*0.3*) dengan Kepuasan.
             2. *Workload* memiliki korelasi negatif sedang (-0.3**) dengan Kepuasan.
             3. *Stress* memiliki korelasi negatif lemah (-0.2**) dengan Kepuasan.
